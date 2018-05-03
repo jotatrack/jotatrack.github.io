@@ -1,0 +1,145 @@
+---
+layout: default
+---
+
+<div class="the-header hide-on-mobile">
+    <h3 class="header-title">Jota<span>Track</span></h3>
+    <div class="header-list">
+        <ul>
+            <li><a href="#trilhas" class="scroll links">Trilhas</a></li>
+            <li>|</li>
+            <li><a href="#videos" class="scroll links">Vídeos</a></li>
+            <li>|</li>
+            <li><a href="#sobre" class="scroll links">Sobre</a></li>
+            <li>|</li>
+            <li><a href="#contato" class="scroll links">Contato</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--<div class="topnav show-on-mobile" id="myTopnav" style="display: none; z-index: 1">-->
+    <!--<a href="#home" class="active">Home</a>-->
+    <!--<a href="#news">News</a>-->
+    <!--<a href="#contact">Contact</a>-->
+    <!--<a href="#about">About</a>-->
+    <!--<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>-->
+<!--</div>-->
+
+<div class="background">
+    <div class="trilhas">
+        <h3 id="trilhas">Trilhas</h3>
+        <p>Aqui você encontra alguns dos meus trabalhos!</p>
+        <ul>
+            <li><a href="javascript:void(0);" onclick="invisible('todos')">Todos</a></li>
+            <li><a href="javascript:void(0);" onclick="invisible('games')">Games</a></li>
+            <li><a href="javascript:void(0);" onclick="invisible('jingles')">Jingles</a></li>
+            <li><a href="javascript:void(0);" onclick="invisible('diversos')">Diversos</a></li>
+        </ul>
+        <div class="trilha-list">
+            {%- for post in site.categories["trilhas"] -%}
+                <div class="trilha-list-item trilha-list-item-mobile games">
+                    <a href="{{ post.link }}">
+                        <img src="{{post.imagem}}">
+                        <p>{{ post.nome }}</p>
+                    </a>
+                </div>
+            {%- endfor -%}
+            <!--<div class="trilha-list-item trilha-list-item-mobile games">
+                <a href="#">
+                    <img src="{{ 'assets/images/black-screensavers-wallpapers.jpg' | relative_url }}">
+                    <p>Call of Duty</p>
+                </a>
+            </div>
+            <div class="trilha-list-item trilha-list-item-mobile games">
+                <a href="#">
+                    <img src="{{ 'assets/images/black-screensavers-wallpapers.jpg' | relative_url }}">
+                    <p>Call of Duty</p>
+                </a>
+            </div>
+            <div class="trilha-list-item trilha-list-item-mobile jingles">
+                <a href="#">
+                    <img src="{{ 'assets/images/black-screensavers-wallpapers.jpg' | relative_url }}">
+                    <p>Call of Duty</p>
+                </a>
+            </div>
+            <div class="trilha-list-item trilha-list-item-mobile jingles">
+                <a href="#">
+                    <img src="{{ 'assets/images/black-screensavers-wallpapers.jpg' | relative_url }}">
+                    <p>Call of Duty</p>
+                </a>
+            </div>
+            <div class="trilha-list-item trilha-list-item-mobile jingles">
+                <a href="#">
+                    <img src="{{ 'assets/images/black-screensavers-wallpapers.jpg' | relative_url }}">
+                    <p>Call of Duty</p>
+                </a>
+            </div>
+            <div class="trilha-list-item trilha-list-item-mobile diversos">
+                <a href="#">
+                    <img src="{{ 'assets/images/black-screensavers-wallpapers.jpg' | relative_url }}">
+                    <p>Call of Duty</p>
+                </a>
+            </div>
+            <div class="trilha-list-item trilha-list-item-mobile diversos">
+                <a href="#">
+                    <img src="{{ 'assets/images/black-screensavers-wallpapers.jpg' | relative_url }}">
+                    <p>Call of Duty</p>
+                </a>
+            </div>-->
+        </div>
+    </div>
+
+    <div class="videos">
+        <h3 id="videos">Vídeos</h3>
+        <p>Aqui você encontra alguns dos meus trabalhos!</p>
+        <div class="owl-carousel owl-theme videos-list">
+            <div class="item-video video-size video-size-mobile"><a class="owl-video" href="https://vimeo.com/23924346"></a></div>
+            <div class="item-video video-size video-size-mobile"><a class="owl-video" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ"></a></div>
+            <div class="item-video video-size video-size-mobile"><a class="owl-video" href="https://www.youtube.com/watch?v=FBu_jxT1PkA"></a></div>
+            <div class="item-video video-size video-size-mobile"><a class="owl-video" href="https://www.youtube.com/watch?v=oy18DJwy5lI"></a></div>
+            <div class="item-video video-size video-size-mobile"><a class="owl-video" href="https://www.youtube.com/watch?v=H3jLkJrhHKQ"></a></div>
+            <div class="item-video video-size video-size-mobile"><a class="owl-video" href="https://www.youtube.com/watch?v=g3J4VxWIM6s"></a></div>
+            <div class="item-video video-size video-size-mobile"><a class="owl-video" href="https://www.youtube.com/watch?v=0fhoIate4qI"></a></div>
+            <div class="item-video video-size video-size-mobile"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+        </div>
+    </div>
+
+    <div class="sobre">
+        <h3 id="sobre">Sobre</h3>
+        <img class="sobre-image sobre-img-mobile" src="{{ 'assets/images/RSCN0912.JPG' | relative_url }}">
+        <p style="text-align: justify; text-justify: inter-word;">Viva em busca da masterização e do profissionalismo, every f*ing day. Trabalho é aprendizado, tudo é um só, onelife. A vida acontece de você e não pra você. Busque o next level. Menos desculpas e mais action. Genialidade é fruto de muito hardwork. Quebre padrões e atinja a alta performance em todas as áreas da sua vida. Construa algo que seja top. Transforme o seu lifestyle. Walk the f*ing talk. Encare problemas como oportunidades. Você nunca vai estar pronto então comece agora. Viva em busca da masterização e do profissionalismo, every f*ing day. Bora pra action. Walk the f*ing talk. A vida acontece de você e não pra você. É você quem decide se o seu dia vai ser incrível ou não.  Never f*ing give up.</p>
+    </div>
+
+    <div class="contato contato-mobile">
+        <h3 id="contato">Contato</h3>
+        <p>Aqui você encontra alguns dos meus trabalhos!</p>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group" style="text-align: left;">
+                        <label for="exampleInputEmail1">Nome:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group" style="text-align: left;">
+                        <label for="exampleInputPassword1">Email:</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group" style="text-align: left;">
+                        <label for="exampleFormControlTextarea1">Mensagem:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%; mar">Enviar</button>
+        </form>
+    </div>
+
+</div>
+
+</div>
