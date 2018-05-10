@@ -37,7 +37,7 @@ layout: default
         </ul>
         <div class="trilha-list">
             {%- for post in site.categories["trilhas"] -%}
-                <div class="trilha-list-item trilha-list-item-mobile games">
+                <div class="trilha-list-item trilha-list-item-mobile {{ post.class }}">
                     <a href="{{ post.link }}">
                         <img src="{{post.imagem}}">
                         <p>{{ post.nome }}</p>
