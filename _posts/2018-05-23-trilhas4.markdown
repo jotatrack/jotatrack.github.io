@@ -4,7 +4,7 @@ date: 2018-05-23 20:45:00 Z
 categories:
 - trilhas
 imagem: "/uploads/yatzi.png"
-nome: Yatzi Party
+nome: Yatzy Party
 link: https://soundcloud.com/marcio-jota-1/sets/yatzy-party
 class: games
 ---
