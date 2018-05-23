@@ -5,7 +5,7 @@ categories:
 - trilhas
 imagem: "/uploads/yatzi.png"
 nome: Yatzi Party
-link: https://soundcloud.com/marcio-jota-1/game-play-yatzyparty
+link: https://soundcloud.com/marcio-jota-1/sets/yatzy-party
 class: games
 ---
 
