@@ -2,5 +2,8 @@
 title: Trilhas4
 date: 2018-05-23 20:45:00 Z
 imagem: "/uploads/yatzi.png"
+nome: Yatzi Party
+link: https://soundcloud.com/marcio-jota-1/game-play-yatzyparty
+class: games
 ---
 
