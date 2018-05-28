@@ -5,7 +5,7 @@ categories:
 - trilhas
 imagem: assets/images/Flyer Musical.jpg
 nome: Um Renascer
-link: 
+link: https://soundcloud.com/marcio-jota-1/sets/musical-um-renascer
 class: diversos
 ---
 
