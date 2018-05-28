@@ -5,7 +5,7 @@ categories:
 - trilhas
 imagem: "/uploads/yatzi.png"
 nome: Yatzy Party
-link: https://soundcloud.com/marcio-jota-1/sets/ducks-vs-aliens
+link: https://soundcloud.com/marcio-jota-1/sets/yatzy-party
 class: games
 ---
 
