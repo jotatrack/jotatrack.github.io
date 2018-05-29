@@ -116,6 +116,7 @@ html, body {
 
 .trilhas {
   text-align: center;
+  font-weight:bold;
 }
 
 .trilhas h3 {
@@ -379,7 +380,7 @@ label:focus,
   }
   .header-text-mobile {
     font-size: 1.3rem;
-    top: 25vh;
+    top: 35vh;
   }
   .img-header-mobile {
     height: 40vh !important;
@@ -410,7 +411,8 @@ label:focus,
   }
 
   .image-layer-mobile img {
-    width: 35%;
+    width: 50%;
+    margin-top: 0vh;
   }
   .contato-mobile {
     width: 90%;
