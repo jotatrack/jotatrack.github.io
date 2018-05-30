@@ -448,6 +448,32 @@ label:focus,
   display: none;
 }
 
+.social-icons {
+  width: 100%;
+  text-align: center;
+  margin-top: 4%;
+}
+
+#facebook-icon {
+  color: #3b5998;
+  margin-right: 0.5%;
+}
+
+#facebook-icon:hover {
+  color: #3b517f;
+  text-decoration: none;
+}
+
+#instagram-icon {
+  color: #bc2a8d;
+  margin-left: 0.5%;
+}
+
+#instagram-icon:hover {
+  color: #a03b80;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
